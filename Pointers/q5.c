@@ -7,6 +7,6 @@ int main()
     int value2 = 6;
  
     int * const ptr = &value1;
-    //ptr = &value2; //not okay
+    ptr = &value2; //not okay
 	return 0;
 }
